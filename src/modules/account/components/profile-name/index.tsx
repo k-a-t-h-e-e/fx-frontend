@@ -4,8 +4,8 @@ import { Customer } from "@medusajs/medusa"
 import React, { useEffect } from "react"
 import { useFormState } from "react-dom"
 
-import Input from "modules/common/components/input"
-import { updateCustomerName } from "modules/account/actions"
+import Input from "@modules/common/components/input"
+import { updateCustomerName } from "@modules/account/actions"
 
 import AccountInfo from "../account-info"
 

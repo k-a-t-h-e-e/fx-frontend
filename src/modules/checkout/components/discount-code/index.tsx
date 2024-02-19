@@ -6,15 +6,15 @@ import { Heading, Label, Text, Tooltip } from "@medusajs/ui"
 import React, { useMemo } from "react"
 import { useFormState } from "react-dom"
 
-import Input from "modules/common/components/input"
-import Trash from "modules/common/icons/trash"
-import ErrorMessage from "modules/checkout/components/error-message"
-import { SubmitButton } from "modules/checkout/components/submit-button"
+import Input from "@modules/common/components/input"
+import Trash from "@modules/common/icons/trash"
+import ErrorMessage from "@modules/checkout/components/error-message"
+import { SubmitButton } from "@modules/checkout/components/submit-button"
 import {
   removeDiscount,
   removeGiftCard,
   submitDiscountForm,
-} from "modules/checkout/actions"
+} from "@modules/checkout/actions"
 import { formatAmount } from "@lib/util/prices"
 
 type DiscountCodeProps = {

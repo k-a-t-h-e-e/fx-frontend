@@ -2,7 +2,7 @@ import { Metadata } from "next"
 import { notFound } from "next/navigation"
 
 import { retrieveOrder } from "@lib/data"
-import OrderDetailsTemplate from "modules/order/templates/order-details-template"
+import OrderDetailsTemplate from "@modules/order/templates/order-details-template"
 
 type Props = {
   params: { id: string }

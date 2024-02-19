@@ -4,7 +4,7 @@ import { Order } from "@medusajs/medusa"
 import { Button } from "@medusajs/ui"
 
 import OrderCard from "../order-card"
-import LocalizedClientLink from "modules/common/components/localized-client-link"
+import LocalizedClientLink from "@modules/common/components/localized-client-link"
 
 const OrderOverview = ({ orders }: { orders: Order[] }) => {
   if (orders?.length) {

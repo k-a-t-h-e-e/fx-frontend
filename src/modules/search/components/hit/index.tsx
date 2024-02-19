@@ -1,8 +1,8 @@
 import { ProductVariant } from "@medusajs/medusa"
 import { Container, Text } from "@medusajs/ui"
 
-import Thumbnail from "modules/products/components/thumbnail"
-import LocalizedClientLink from "modules/common/components/localized-client-link"
+import Thumbnail from "@modules/products/components/thumbnail"
+import LocalizedClientLink from "@modules/common/components/localized-client-link"
 
 export type ProductHit = {
   id: string

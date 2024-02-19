@@ -1,7 +1,7 @@
-import Addresses from "modules/checkout/components/addresses"
-import Shipping from "modules/checkout/components/shipping"
-import Payment from "modules/checkout/components/payment"
-import Review from "modules/checkout/components/review"
+import Addresses from "@modules/checkout/components/addresses"
+import Shipping from "@modules/checkout/components/shipping"
+import Payment from "@modules/checkout/components/payment"
+import Review from "@modules/checkout/components/review"
 import {
   createPaymentSessions,
   getCustomer,

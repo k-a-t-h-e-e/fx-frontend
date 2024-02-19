@@ -3,8 +3,8 @@
 import { LineItem, Region } from "@medusajs/medusa"
 import { Table, clx } from "@medusajs/ui"
 
-import Item from "modules/cart/components/item"
-import SkeletonLineItem from "modules/skeletons/components/skeleton-line-item"
+import Item from "@modules/cart/components/item"
+import SkeletonLineItem from "@modules/skeletons/components/skeleton-line-item"
 
 type ItemsTemplateProps = {
   items?: Omit<LineItem, "beforeInsert">[]

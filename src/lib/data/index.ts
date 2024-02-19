@@ -17,7 +17,7 @@ import { cache } from "react"
 
 import sortProducts from "@lib/util/sort-products"
 import transformProductPreview from "@lib/util/transform-product-preview"
-import { SortOptions } from "modules/store/components/refinement-list/sort-products"
+import { SortOptions } from "@modules/store/components/refinement-list/sort-products"
 import { ProductCategoryWithChildren, ProductPreviewType } from "types/global"
 
 import { medusaClient } from "@lib/config"

@@ -3,10 +3,10 @@
 import { Customer } from "@medusajs/medusa"
 import React, { useEffect } from "react"
 
-import Input from "modules/common/components/input"
+import Input from "@modules/common/components/input"
 
 import AccountInfo from "../account-info"
-import { updateCustomerPassword } from "modules/account/actions"
+import { updateCustomerPassword } from "@modules/account/actions"
 import { useFormState } from "react-dom"
 
 type MyInformationProps = {
