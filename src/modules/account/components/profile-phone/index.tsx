@@ -4,10 +4,10 @@ import { Customer } from "@medusajs/medusa"
 import React, { useEffect } from "react"
 import { useFormState } from "react-dom"
 
-import Input from "@modules/common/components/input"
+import Input from "modules/common/components/input"
 
 import AccountInfo from "../account-info"
-import { updateCustomerPhone } from "@modules/account/actions"
+import { updateCustomerPhone } from "modules/account/actions"
 
 type MyInformationProps = {
   customer: Omit<Customer, "password_hash">

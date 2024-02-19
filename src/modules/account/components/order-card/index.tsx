@@ -2,8 +2,8 @@ import { Order } from "@medusajs/medusa"
 import { Button } from "@medusajs/ui"
 import { useMemo } from "react"
 
-import Thumbnail from "@modules/products/components/thumbnail"
-import LocalizedClientLink from "@modules/common/components/localized-client-link"
+import Thumbnail from "modules/products/components/thumbnail"
+import LocalizedClientLink from "modules/common/components/localized-client-link"
 import { formatAmount } from "@lib/util/prices"
 
 type OrderCardProps = {

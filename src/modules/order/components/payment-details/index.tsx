@@ -3,7 +3,7 @@ import { Container, Heading, Text } from "@medusajs/ui"
 import { formatAmount } from "@lib/util/prices"
 
 import { paymentInfoMap } from "@lib/constants"
-import Divider from "@modules/common/components/divider"
+import Divider from "modules/common/components/divider"
 
 type PaymentDetailsProps = {
   order: Order

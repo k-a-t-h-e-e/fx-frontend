@@ -6,16 +6,16 @@ import { Button, Heading, Text, clx } from "@medusajs/ui"
 import { Address, Region } from "@medusajs/medusa"
 
 import useToggleState from "@lib/hooks/use-toggle-state"
-import CountrySelect from "@modules/checkout/components/country-select"
-import Input from "@modules/common/components/input"
-import Modal from "@modules/common/components/modal"
+import CountrySelect from "modules/checkout/components/country-select"
+import Input from "modules/common/components/input"
+import Modal from "modules/common/components/modal"
 import {
   deleteCustomerShippingAddress,
   updateCustomerShippingAddress,
-} from "@modules/account/actions"
-import Spinner from "@modules/common/icons/spinner"
+} from "modules/account/actions"
+import Spinner from "modules/common/icons/spinner"
 import { useFormState } from "react-dom"
-import { SubmitButton } from "@modules/checkout/components/submit-button"
+import { SubmitButton } from "modules/checkout/components/submit-button"
 
 type EditAddressProps = {
   region: Region

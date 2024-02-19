@@ -5,12 +5,12 @@ import { clx } from "@medusajs/ui"
 import { ArrowRightOnRectangle } from "@medusajs/icons"
 import { useParams, usePathname } from "next/navigation"
 
-import ChevronDown from "@modules/common/icons/chevron-down"
-import { signOut } from "@modules/account/actions"
-import User from "@modules/common/icons/user"
-import MapPin from "@modules/common/icons/map-pin"
-import Package from "@modules/common/icons/package"
-import LocalizedClientLink from "@modules/common/components/localized-client-link"
+import ChevronDown from "modules/common/icons/chevron-down"
+import { signOut } from "modules/account/actions"
+import User from "modules/common/icons/user"
+import MapPin from "modules/common/icons/map-pin"
+import Package from "modules/common/icons/package"
+import LocalizedClientLink from "modules/common/components/localized-client-link"
 
 const AccountNav = ({
   customer,

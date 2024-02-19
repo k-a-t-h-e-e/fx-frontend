@@ -3,12 +3,12 @@
 import { Customer, Region } from "@medusajs/medusa"
 import React, { useEffect, useMemo } from "react"
 
-import Input from "@modules/common/components/input"
-import NativeSelect from "@modules/common/components/native-select"
+import Input from "modules/common/components/input"
+import NativeSelect from "modules/common/components/native-select"
 
 import AccountInfo from "../account-info"
 import { useFormState } from "react-dom"
-import { updateCustomerBillingAddress } from "@modules/account/actions"
+import { updateCustomerBillingAddress } from "modules/account/actions"
 
 type MyInformationProps = {
   customer: Omit<Customer, "password_hash">

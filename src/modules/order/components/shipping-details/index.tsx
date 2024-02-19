@@ -2,7 +2,7 @@ import { Order } from "@medusajs/medusa"
 import { Heading, Text } from "@medusajs/ui"
 import { formatAmount } from "@lib/util/prices"
 
-import Divider from "@modules/common/components/divider"
+import Divider from "modules/common/components/divider"
 
 type ShippingDetailsProps = {
   order: Order

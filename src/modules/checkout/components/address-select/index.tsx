@@ -5,8 +5,8 @@ import { clx } from "@medusajs/ui"
 import { omit } from "lodash"
 import { Fragment, useMemo } from "react"
 
-import Radio from "@modules/common/components/radio"
-import { cartUpdate } from "@modules/checkout/actions"
+import Radio from "modules/common/components/radio"
+import { cartUpdate } from "modules/checkout/actions"
 import compareAddresses from "@lib/util/compare-addresses"
 
 type AddressSelectProps = {

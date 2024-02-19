@@ -4,7 +4,7 @@ import { PaymentSession } from "@medusajs/medusa"
 import { Text, Tooltip, clx } from "@medusajs/ui"
 import React from "react"
 
-import Radio from "@modules/common/components/radio"
+import Radio from "modules/common/components/radio"
 
 import PaymentTest from "../payment-test"
 

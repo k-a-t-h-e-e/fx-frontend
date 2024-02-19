@@ -2,7 +2,7 @@ import { forwardRef, useImperativeHandle, useMemo, useRef } from "react"
 
 import NativeSelect, {
   NativeSelectProps,
-} from "@modules/common/components/native-select"
+} from "modules/common/components/native-select"
 import { Region } from "@medusajs/medusa"
 
 const CountrySelect = forwardRef<
