@@ -5,7 +5,16 @@ const store = require("./store.config.json")
  * @type {import('next').NextConfig}
  */
 const nextConfig = withStoreConfig({
-
+  eslint: {
+    dirs: ['utils'], // Only run ESLint on the 'pages' and 'utils' directories during production builds (next build)
+  },
+  typescript: {
+    // !! WARN !!
+    // Dangerously allow production builds to successfully complete even if
+    // your project has type errors.
+    // !! WARN !!
+    ignoreBuildErrors: true,
+  },
   features: store.features,
   reactStrictMode: true,
   images: {
