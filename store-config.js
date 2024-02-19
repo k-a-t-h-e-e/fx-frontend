@@ -12,5 +12,4 @@ function withStoreConfig(nextConfig = {}) {
 
   return nextConfig
 }
-
 module.exports = { withStoreConfig }
