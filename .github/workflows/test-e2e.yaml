@@ -3,7 +3,7 @@ name: Medusa NextJS Template Tests
 on:
   push:
     branches:
-      - main
+      - dev
   pull_request:
   workflow_dispatch:
 
